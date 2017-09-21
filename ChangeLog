@@ -1,3 +1,10 @@
+2017.09.21 Kentaro Fukuchi <kentaro@fukuchi.org>
+	[4.0]
+	* qrencode.1.in, NEWS:
+	  - Release date has been updated.
+	  - Documentation updated.
+	* Version 4.0.0 has ben released.
+
 2017.09.11 Kentaro Fukuchi <kentaro@fukuchi.org>
 	* qrenc.c:
 	  - Read buffer is now allocated as a static array to avoid malloc().
@@ -14,6 +21,12 @@
 	  - SPEC file has been removed. (closes #105)
 	* Makefile.am:
 	  - The generation rule for README has been improved.
+	[4.0]
+	* 4.0 branch has been started.
+	* README.md:
+	  - Version number added to the 1st line.
+	  - Fixed the URL to the badge of Travis CI.
+	[master]
 	* qrencode.[ch]:
 	  - Symbol data representation of QRcode object has been slightly changed.
 	    This change does not affect to most applications.
@@ -23,7 +36,6 @@
 	  - Modified correct pattern of a test referring non-LSB bits of QRCode.
 	* tests/view_qrcode.c:
 	  - Now you can identify the feature of modules by color.
-
 
 2017.09.07 Kentaro Fukuchi <kentaro@fukuchi.org>
 	* *.[ch]:
